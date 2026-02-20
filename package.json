@@ -1,0 +1,32 @@
+{
+  "name": "@dbwebb/databas",
+  "version": "2.0.1",
+  "description": "CLI to work with the databas source, for staff and student.",
+  "license": "MIT",
+  "keywords": [
+    "dbwebb",
+    "databas",
+    "tool",
+    "cli",
+    "bash"
+  ],
+  "author": "Mikael Roos",
+  "type": "module",
+  "scripts": {
+    "clean-all": "rm -rf node_modules package-lock.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "README.md",
+    "bin"
+  ],
+  "bin": {
+    "databas": "./bin/dbw-databas.bash"
+  },
+  "dependencies": {
+    "acorn": "^8.15.0"
+  }
+}
