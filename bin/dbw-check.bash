@@ -430,36 +430,40 @@ kmom_summary ()
 PATHS_LABBMILJO=(
     ".editorconfig"
     ".gitignore"
-    "package.json"
     "README.md"
 )
 
 PATHS_KMOM01=(
-    "lab/"
-    "lab/lab_01/"
-    "public/"
-    "public/css/"
-    "public/css/style.css"
-    "public/js/"
-    "public/js/hello.js"
-    "public/about.html"
-    "public/me.html"
-    "public/report.html"
+    "kmom/01"
+    "kmom/01/README.md"
+    "kmom/01/world1"
+    "kmom/01/world1/select.sql"
+    "kmom/01/world1/task.sql"
 )
 
 PATHS_KMOM02=(
-    "lab/"
-    "lab/lab_02/"
-    "public/css/responsive-design.css"
-    "public/js/responsive-design.js"
+    "kmom/02"
+    "kmom/02/README.md"
+    "kmom/02/world2"
+    "kmom/02/world2/join.sql"
+    "kmom/02/world2/task.sql"
 )
 
 PATHS_KMOM03=(
-    "lab/"
-    "lab/lab_03/"
-    "public/onepage.html"
-    "public/css/onepage.css"
-    "public/js/onepage.js"
+    "kmom/03"
+    "kmom/03/README.md"
+    "kmom/03/classic"
+    "kmom/03/classic/select.sql"
+    "kmom/03/classic/er.pdf"
+    "kmom/03/DatabaseExample"
+    "kmom/03/DatabaseExample/Program.cs"
+    "kmom/03/DatabaseExample/Database.cs"
+    "kmom/03/DatabaseExample/Queries.cs"
+    "kmom/03/ClassicModels"
+    "kmom/03/ClassicModels/Program.cs"
+    "kmom/03/ClassicModels/Database.cs"
+    "kmom/03/ClassicModels/Queries.cs"
+    "kmom/03/ClassicModels/Menu.cs"
 )
 
 PATHS_KMOM04=(

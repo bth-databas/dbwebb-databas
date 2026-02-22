@@ -2,10 +2,10 @@
 
 # Name of the script
 #SCRIPT=$( basename "$0" )
-export SCRIPT="@dbwebb/webtec"
+export SCRIPT="@dbwebb/databas"
 
 # Current version
-export VERSION="2.0.0"
+export VERSION="1.0.1"
 
 
 
@@ -41,7 +41,7 @@ case "$SUBCOMMAND" in
     version
     ;;
   *)
-    echo "Usage: npx @dbwebb/webtec {check|help|version}"
+    echo "Usage: npx @dbwebb/databas {check|help|version}"
     exit 1
     ;;
 esac
