@@ -1,6 +1,6 @@
 {
   "name": "@dbwebb/databas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to work with the databas source, for staff and student.",
   "license": "MIT",
   "keywords": [
