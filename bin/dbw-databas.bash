@@ -5,7 +5,7 @@
 export SCRIPT="@dbwebb/databas"
 
 # Current version
-export VERSION="1.0.1"
+export VERSION="$( node -p "require('./package.json').version" )"
 
 
 
