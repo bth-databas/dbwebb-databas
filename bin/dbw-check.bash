@@ -776,6 +776,9 @@ main ()
     local command
     local args
 
+    # defaults
+    NO_ESLINT=1
+
     while (( $# ))
     do
         case "$1" in
