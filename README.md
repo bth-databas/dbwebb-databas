@@ -42,14 +42,23 @@ npx @dbwebb/databas check kmom03
 npx @dbwebb/databas check kmom04
 npx @dbwebb/databas check kmom05
 npx @dbwebb/databas check kmom06
+```
+
+<!--
 npx @dbwebb/databas check kmom07
 npx @dbwebb/databas check kmom08
 npx @dbwebb/databas check kmom10
-```
+-->
 
 When you run kmom01, it will also check labbmiljo.
 
 When you run kmom02, it will also check kmom01 and labbmiljo (and so on).
+
+You can check only one specific kmom like this.
+
+```bash
+npx @dbwebb/databas check kmom02 --only-this
+```
 
 You can get a helptext like this.
 
@@ -86,9 +95,6 @@ npx @dbwebb/databas check lab lab_01 lab_02
 These will be supported but are yet not implemented.
 
 ```bash
-npx @dbwebb/databas check kmom04
-npx @dbwebb/databas check kmom05
-npx @dbwebb/databas check kmom06
 npx @dbwebb/databas check kmom10
 ```
 -->
