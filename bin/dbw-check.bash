@@ -467,23 +467,51 @@ PATHS_KMOM03=(
 )
 
 PATHS_KMOM04=(
-    "lab/"
-    "lab/lab_04/"
-    "public/dom.html"
-    "public/css/dom.css"
-    "public/js/dom.js"
+    "kmom/04"
+    "kmom/04/README.md"
+    "kmom/04/transaction"
+    "kmom/04/transaction/create.sql"
+    "kmom/04/transaction/insert.sql"
+    "kmom/04/transaction/dml.sql"
+    "kmom/04/BankExample"
+    "kmom/04/BankExample/Program.cs"
+    "kmom/04/Bank"
+    "kmom/04/Bank/Program.cs"
+    "kmom/04/Bank/sql"
+    "kmom/04/Bank/sql/setup.sql"
+    "kmom/04/Bank/sql/bank.puml"
+    "kmom/04/er.pdf"
 )
 
 PATHS_KMOM05=(
-    "public/fetch.html"
-    "public/css/fetch.css"
-    "public/js/fetch.js"
+    "kmom/05"
+    "kmom/05/README.md"
+    "kmom/05/procedure"
+    "kmom/05/procedure/procedure.sql"
+    "kmom/05/BankExample"
+    "kmom/05/BankExample/Program.cs"
+    "kmom/05/Bank"
+    "kmom/05/Bank/Program.cs"
+    "kmom/05/Bank/sql"
+    "kmom/05/Bank/sql/setup.sql"
+    "kmom/05/Bank/sql/bank.puml"
+    "kmom/05/er.pdf"
 )
 
 PATHS_KMOM06=(
-    "public/duckhunt.html"
-    "public/css/duckhunt.css"
-    "public/js/duckhunt.js"
+    "kmom/06"
+    "kmom/06/README.md"
+    "kmom/06/trigger"
+    "kmom/06/trigger/trigger.sql"
+    "kmom/06/Bank"
+    "kmom/06/Bank/Program.cs"
+    "kmom/06/Bank/sql"
+    "kmom/06/Bank/sql/setup.sql"
+    "kmom/06/Bank/sql/bank.puml"
+    "kmom/06/eshop"
+    "kmom/06/eshop/er.pdf"
+    "kmom/06/eshop/setup.sql"
+    "kmom/06/eshop/schema.pdf"
 )
 
 PATHS_KMOM10=(
