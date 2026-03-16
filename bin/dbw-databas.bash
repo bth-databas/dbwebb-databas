@@ -5,7 +5,7 @@
 export SCRIPT="@dbwebb/databas"
 
 # Current version
-export VERSION="1.2.2"
+export VERSION="1.3.0"
 
 
 
