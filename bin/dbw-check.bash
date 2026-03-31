@@ -452,14 +452,11 @@ PATHS_KMOM03=(
     "kmom/03/classic/select.sql"
     "kmom/03/classic/er.pdf"
     "kmom/03/DatabaseExample"
+    "kmom/03/DatabaseExample/DatabaseExample.csproj"
     "kmom/03/DatabaseExample/Program.cs"
-    "kmom/03/DatabaseExample/Database.cs"
-    "kmom/03/DatabaseExample/Queries.cs"
     "kmom/03/ClassicModels"
+    "kmom/03/ClassicModels/ClassicModels.csproj"
     "kmom/03/ClassicModels/Program.cs"
-    "kmom/03/ClassicModels/Database.cs"
-    "kmom/03/ClassicModels/Queries.cs"
-    "kmom/03/ClassicModels/Menu.cs"
 )
 
 PATHS_KMOM04=(
