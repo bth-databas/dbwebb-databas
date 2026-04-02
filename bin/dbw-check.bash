@@ -507,10 +507,39 @@ PATHS_KMOM06=(
     "kmom/06/eshop/schema.pdf"
 )
 
+PATHS_KMOM07=(
+    "kmom/07"
+    "kmom/07/README.md"
+    "kmom/07/Eshop"
+    "kmom/07/Eshop/Program.cs"
+    "kmom/07/Eshop/sql"
+    "kmom/07/Eshop/sql/setup.sql"
+    "kmom/07/Eshop/sql/proc.sql"
+    "kmom/07/Eshop/sql/insert.sql"
+)
+
+PATHS_KMOM08=(
+    "kmom/08"
+    "kmom/08/README.md"
+    "kmom/08/Eshop"
+    "kmom/08/Eshop/Program.cs"
+    "kmom/08/Eshop/sql"
+    "kmom/08/Eshop/sql/backup.sql"
+    "kmom/08/Eshop/sql/setup.sql"
+    "kmom/08/Eshop/sql/proc.sql"
+    "kmom/08/Eshop/sql/insert.sql"
+)
+
 PATHS_KMOM10=(
-    "public/project.html"
-    "public/css/project.css"
-    "public/js/project.js"
+    "kmom/10"
+    "kmom/10/README.md"
+    "kmom/10/Eshop"
+    "kmom/10/Eshop/Program.cs"
+    "kmom/10/Eshop/sql"
+    "kmom/10/Eshop/sql/backup.sql"
+    "kmom/10/Eshop/sql/setup.sql"
+    "kmom/10/Eshop/sql/proc.sql"
+    "kmom/10/Eshop/sql/insert.sql"
 )
 
 
@@ -741,6 +770,50 @@ app_kmom06 ()
 ##
 # Check a specific kmom.
 #
+app_kmom07 ()
+{
+    local success=0
+    local silent="$1"
+    local previous_kmom="no"
+    local kmom="kmom07"
+    local pathArray="PATHS_KMOM07[@]"
+    local versionMin="v7.0.0"
+    local versionMax="v8.0.0"
+    local lab=""
+
+    kmom_do "$silent" "$previous_kmom" "$kmom" "$pathArray" "$versionMin" "$versionMax" "$lab"
+    res=$?
+    (( res != 0 )) && success=$res
+
+    return $success
+}
+
+
+##
+# Check a specific kmom.
+#
+app_kmom08 ()
+{
+    local success=0
+    local silent="$1"
+    local previous_kmom="no"
+    local kmom="kmom08"
+    local pathArray="PATHS_KMOM08[@]"
+    local versionMin="v8.0.0"
+    local versionMax="v9.0.0"
+    local lab=""
+
+    kmom_do "$silent" "$previous_kmom" "$kmom" "$pathArray" "$versionMin" "$versionMax" "$lab"
+    res=$?
+    (( res != 0 )) && success=$res
+
+    return $success
+}
+
+
+##
+# Check a specific kmom.
+#
 app_kmom10 ()
 {
     local success=0
@@ -748,7 +821,7 @@ app_kmom10 ()
     local previous_kmom="no"
     local kmom="kmom10"
     local pathArray="PATHS_KMOM10[@]"
-    local versionMin="v7.0.0"
+    local versionMin="v10.0.0"
     local versionMax="v11.0.0"
     local lab=""
 
@@ -830,6 +903,8 @@ main ()
             | kmom04         \
             | kmom05         \
             | kmom06         \
+            | kmom07         \
+            | kmom08         \
             | kmom10         \
             )
                 if [[ ! $command ]]; then
