@@ -18,6 +18,7 @@ Execute local scripts within the repo like this.
 ```bash
 bin/dbw-databas.bash version
 bin/dbw-databas.bash help
+bin/dbw-databas.bash check kmom01
 ```
 
 
