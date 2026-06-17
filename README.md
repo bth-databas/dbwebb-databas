@@ -19,7 +19,13 @@ npm i @dbwebb/databas --save-dev
 You can update to the latest version like this.
 
 ```bash
-npm update @dbwebb/databas@latest
+npm i @dbwebb/databas@latest
+```
+
+Check what version you have installed.
+
+```bash
+npm ls @dbwebb/databas
 ```
 
 
